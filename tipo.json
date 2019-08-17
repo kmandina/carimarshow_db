@@ -12,7 +12,7 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa63"},"nombre":"Novelas TX","updatedAt":{"$date":"2018-12-15T22:36:54.000Z"},"orden":{"$numberLong":"3"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa50"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa64"},"nombre":"Novelas","updatedAt":{"$date":"2018-12-15T22:38:11.000Z"},"orden":{"$numberLong":"2"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa50"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa65"},"nombre":"Estreno Novelas","updatedAt":{"$date":"2018-12-15T22:36:48.000Z"},"orden":{"$numberLong":"1"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa50"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa66"},"nombre":"Peliculas 2018","updatedAt":{"$date":"2019-03-20T22:47:52.531Z"},"orden":3,"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa51"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa66"},"nombre":"Peliculas 2019","updatedAt":{"$date":"2019-08-16T20:29:10.380Z"},"orden":3,"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa51"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa67"},"nombre":"Estreno Peliculas","updatedAt":{"$date":"2018-12-08T22:30:43.000Z"},"orden":{"$numberLong":"1"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa51"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa68"},"nombre":"Estreno Peliculas HD","updatedAt":{"$date":"2018-12-08T22:30:46.000Z"},"orden":{"$numberLong":"2"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa51"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa69"},"nombre":"Series","updatedAt":{"$date":"2018-12-08T20:41:59.000Z"},"orden":{"$numberLong":"1"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa52"}}
