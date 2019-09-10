@@ -1,151 +1,490 @@
 <!doctype html>
+<html lang="es">
+<!--
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Welcome to your Strapi app</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      * {
-        -webkit-box-sizing: border-box;
-      }
+Page    : index / MobApp
+Version : 1.0
+Author  : Colorlib
+URI     : https://colorlib.com
 
-      body, html {
-        margin: 0;
-        padding: 40px 0;
-      }
+ -->
 
-      body {
-        font: 17px/1.5 "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-        background: white;
-        margin: 0;
-        color: #33333d;
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
+<head>
+    <title>CarimarShow-catálogo promocional </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Mobland - Mobile App Landing Page Template">
+    <meta name="keywords" content="series, peliculas, shows, cuba, paquete de la semana, cubaaudiovisuales, alquiler de peliculas, noticias">
 
-      h1 {
-        font-size: 1.6em;
-        margin-top: 0;
-      }
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 
-      h2 {
-        margin-top: 44px;
-        font-size: 1.3em;
-      }
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-      h3 {
-        margin-top: 30px;
-        font-size: 1em;
-      }
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
 
-      section {
-        margin: 0 5.555555555555555%;
-      }
+    <!-- Nav Menu -->
 
-      p {
-        font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-      }
+    <div class="nav-menu fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html"><img src="images/logoc.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"> <a class="nav-link active" href="#home">INICIO <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#features">CARACTERÍSTICAS</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#gallery">GALERIA</a> </li>
+                                                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACTO</a> </li>
+                                <li class="nav-item"><a href="#" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Descarga</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
 
-      a {
-        color: #33a0c0;
-      }
 
-      code {
-        font-family: monospace;
-        font-size: 1.1em;
-      }
+    <header class="bg-gradient" id="home">
+        <div class="container mt-5">
+            <h1>CarimarShow APK</h1>
+            <p class="tagline">Bienvenido  a CarimarShow  un catálogo Promocional de  series, películas, shows, novelas y mucho más. Toda la información gratis del  mundo audiovisual en una aplicación.  </p>
+        </div>
+        <div class="img-holder mt-3"><img src="images/iphonex.png" alt="phone" class="img-fluid"></div>
+    </header>
 
-      pre {
-        background: white;
-        border-top: 1px solid #eee;
-        border-bottom: 1px solid #eee;
-        padding: 25px;
-        font-family: monospace;
-        overflow-x: auto;
-      }
+    <div class="client-logos my-5"></div>
 
-      .wrapper {
-        padding: 0 .75em;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-      }
+    <div class="section light-bg" id="features">
 
-      @media screen and (min-width:40em) {
-        body {
-          font-size: 1.0625em;
-        }
-      }
 
-      @media screen and (min-width:45em) {
-        body {
-          font-size: 1em;
-        }
-      }
+        <div class="container">
 
-      @media screen and (min-width:55.5em) {
-        body {
-          font-size: 1.0625em;
-        }
-      }
+            <div class="section-title">
+              <h3>¿Qué nos distingue?</h3>
+            </div>
 
-      @media screen and (min-width:61.5em) {
-        body {
-          font-size: 1em;
-        }
-        section {
-          margin: 0 16.666666666666664%;
-        }
-      }
 
-      @media screen and (min-width:75em) {
-        body {
-          font-size: 1.0625em;
-        }
-      }
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Sencillo</h4>
+                                    <p>Mediante una interfaz amigable y sencilla usted puede organizar  sus comparar y seleccionar que va a disfrutar para usted y su familia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Configurable</h4>
+                                    <p>En la opción Configuración usted podrá cambiar los modos de visualización, el método para actualizar la apk y la posibilidad de ahorrar  datos de móviles.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Seguro</h4>
+                                    <p class="card-text">No pedidos ni guardamos datos de ninguno de los clientes, respetamos su privacidad y seguridad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      @media screen and (min-width:87em) {
-        body {
-          font-size: 1em;
-        }
-        section {
-          margin: 0 27.77777777777778%;
-        }
-      }
+        </div>
 
-      @media screen and (min-width:105em) {
-        body {
-          font-size: 1.0625em;
-        }
-      }
 
-      @media screen and (min-width:117em) {
-        section {
-          margin: 0 5.555555555555555%;
-        }
-        section .wrapper {
-          width: 37.5%;
-          margin-left: 25%;
-        }
-      }
 
-      @media screen and (min-width:130em) {
-        body {
-          font-size: 1.125em;
-          max-width: 160em;
-        }
-      }
-    </style>
-  </head>
-  <body lang="en">
-    <section>
-      <div class="wrapper">
-        <h1>Bienvenido.</h1>
-        <p>Este es el api de carimarshow.</p>
-        <p>Trabajamos para nuestros clientes con el mayor esfuerzo, por favor respete la seguridad de este sitio.</p>
-      </div>
-    </section>
-  </body>
+    </div>
+    <!-- // end .section -->
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                    <h2>Descubre CarimarShow</h2>
+                    <p class="mb-4">La forma más sencilla de estar informado sobre el mundo de los audiovisuales. </p>
+                    <!-- // end . <a href="#" class="btn btn-primary">Read more</a>section -->
+                </div>
+            </div>
+            <div class="perspective-phone">
+                <img src="images/perspective.png" alt="perspective phone" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+    <div class="section light-bg">
+        <div class="container">
+            <div class="section-title">
+              <p>CARACTERÍSTICAS</p>
+<h3>Conoce más </h3>
+            </div>
+
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#communication">Apk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#schedule">Temas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#messages">Buscador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#livechat">Ver en línea</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="communication">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="images/screen1.jpg" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+
+                          <h2>CarimarShow más para ver...</h2>
+                            <p class="lead">CarimarShow catálogo promocional de series, peliculas, novelas, show y mucho más.</p>
+                            <p>Aplicación para dispositivos  androide compatible con las versiones  5 a la 9, disponibilidad offline y online del Directorio de audiovisuales, que permite  entre otras funcionalidades, informar  y  educar a los  usuario de que audiovisual consumir ellos o sus familiares.</p>
+</div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="schedule">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>Modo Oscuro</h2>
+                            <p class="lead">Cambia comodamente la forma de visualizar los contenidos. </p>
+                            <p>CarimarShow dispone del Modo Oscuro logrando así que el usuario pueda tener una mejor visualización de la aplicación en diferentes ambientes.
+                          </p>
+                      </div>
+                        <img src="images/screen2.jpg" alt="modo oscuro" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="messages">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="images/screen3.jpg" alt="buscador" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h2>Búsquedas rápidas </h2>
+                            <p class="lead">Buscar nunca fue tan rápido. </p>
+                            <p>Con un buscador rápido y sencillo la aplicación le puede mostrar todos los contenidos relacionados con el término a buscar. Lo puede agregar a favoritos y conformar así su  pedido.  </p>
+                               <p> Además dispone de un enlace en cada producto que le permite compartir con sus amigos y familiares el audiovisual seleccionado.
+                            </p>
+                                                        
+                      </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="livechat">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>Ver en Línea</h2>
+                            <p class="lead">Lo que ves es lo que consumes. </p>
+                            <p>La apk CarimarShow dispone de una tecnología diseñada para la población cuba, tiene la posibilidad el usuarios de ver en catálogo online y offline por lo que no es necesario la internet para acceder al mismo. La aplicación se puede actualizar desde internet o de forma manual. 
+                          </p>
+                            <p> Cuando la opción Ver en Línea esta activada y Actualizamos, solo se descargará la información textual, no las imágenes, el concepto es “ lo que ves es lo que consumes”, ideal para el ahorro de datos móviles y poco espacio en memoria de los dispositivos.                         </p>
+                        </div>
+                        <img src="images/screen4.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- // end .section -->
+<!--  
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/dualphone.png" alt="dual phone" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
+                        <h2>Launch your App</h2>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati vel exercitationem eveniet vero maxime ratione </p>
+                        <a href="#" class="btn btn-primary">Read more</a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    -->
+    <!-- // end .section -->
+
+
+    <div class="section light-bg">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 d-flex align-items-center">
+                    <ul class="list-unstyled ui-steps">
+                        <li class="media">
+                            <div class="circle-icon mr-4">1</div>
+                            <div class="media-body">
+                                <h5>Actualizar </h5>
+                                <p>Opción que actualiza la información del catálogo. </p>
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <div class="circle-icon mr-4">2</div>
+                            <div class="media-body">
+                                <h5>Ver en Línea</h5>
+                                <p>Cuando ejecutes la opción Actualizar, solo se descargara la información textual, no se descargan las imágenes,  lo que ves es lo que descargas, ideal para el ahorro de datos móviles y espacio en memoria del dispositivo. </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">3</div>
+                            <div class="media-body">
+                                <h5>Internet</h5>
+                                <p>Actualiza desde internet la aplicación. Otro servidor Define otro origen para  realizar la actualización. </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">4</div>
+                            <div class="media-body">
+                                <h5>Descargar Trailers </h5>
+                                <p>Permite la descarga de trailers a la aplicación, alto consumo de datos móviles. </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">5</div>
+                            <div class="media-body">
+                                <h5>Modo de día</h5>
+                                <p>Mejora la visualización de la aplicación en diferentes entornos.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">6</div>
+                            <div class="media-body">
+                                <h5>Fuente de base de datos</h5>
+                                <p>Si es Interna las imágenes se cargarán en la dirección por defecto. Si se Externa las imágenes se cargarán desde el origen definido en la opción de Dirección.</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">7</div>
+                            <div class="media-body">
+                                <h5>Dirección </h5>
+                                <p>Origen en la Memoria Extrema del dispositivo donde se encuentran las imágenes de la aplicación. </p>
+                            </div>
+                        </li>
+                           <li class="media">
+                            <div class="circle-icon mr-4">8</div>
+                            <div class="media-body">
+                                <h5>Importar </h5>
+                                <p>Cargar la base de datos previamente exportada y actualiza la aplicación. </p>
+                            </div>
+                        </li>
+                           <li class="media">
+                            <div class="circle-icon mr-4">9</div>
+                            <div class="media-body">
+                                <h5>Exportar </h5>
+                                <p>Exporta la base de datos de la aplicación para hacer una salva o compartir con un amigo.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/iphonex.png" alt="iphone" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+ <!--  
+    <div class="section">
+        <div class="container">
+            <div class="section-title">
+                <small>TESTIMONIALS</small>
+                <h3>What our Customers Says</h3>
+            </div>
+
+            <div class="testimonials owl-carousel">
+                <div class="testimonials-single">
+                    <img src="images/client.png" alt="client" class="client-img">
+                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
+                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                    <p class="text-primary">United States</p>
+                </div>
+                <div class="testimonials-single">
+                    <img src="images/client.png" alt="client" class="client-img">
+                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
+                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                    <p class="text-primary">United States</p>
+                </div>
+                <div class="testimonials-single">
+                    <img src="images/client.png" alt="client" class="client-img">
+                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
+                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                    <p class="text-primary">United States</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    -->
+    <!-- // end .section -->
+
+
+    <div class="section light-bg" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <small>GALERIA</small>
+                <h3>Imágenes de la APK</h3>
+            </div>
+
+            <div class="img-gallery owl-carousel owl-theme">
+                <img src="images/screen1.jpg" alt="image">
+                <img src="images/screen2.jpg" alt="image">
+                <img src="images/screen3.jpg" alt="image">
+                <img src="images/screen1.jpg" alt="image">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+
+
+
+    <div class="section" id="pricing"></div>
+    <!-- // end .section -->
+
+
+    <div class="section pt-0">
+        <div class="container">
+            <div class="section-title">
+                <small>FAQ</small>
+                <h3>Preguntas Frecuentes</h3>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h4 class="mb-3">¿Como visualizar el catálogo sin descargar la información?</h4>
+                    <p class="light-font mb-5">Para visualizar el contenido de la aplicación debe tener habilitado las opciones Ver en Línea e Internet. Luego presionar la opción Actualizar. Este opción permite el modo de ahorro de datos moviles "lo que ves es lo que consumes"</p>
+                    <h4 class="mb-3">¿Como descargar el contenido del cátalogo desde internet a mi móvil?</h4>
+                    <p class="light-font mb-5">Para descargar y actualizar todo el contenido de la aplicacón debe tener deshabilitado la opción Ver en Línea y habilitado la opción Internet. </p>
+
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">¿Cómo actualizar el catalógo si no tengo internet?</h4>
+                    <p class="light-font mb-5">Para la distribución local copie la carpeta CarimarShow preferentemente en la memoria interne del teléfono. La carpeta contiene: .app_androide_asset --> contiene todas las imágenes de la aplicacón. CarimarShow.db.cryt --> base de datos de la aplicación CarimarShow-vx.x.x.x.apk -->instalador.</p>
+                    <h4 class="mb-3">¿Cómo puedo compartir la aplicación y la información a un amigo?</h4>
+                    <p class="light-font mb-5">Dentro de almacenamiento interno presione el boton SELECCIONAR. Comparta la carpeta CarimarShow a su amigo y listo </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+
+    <div class="section bg-gradient">
+        <div class="container">
+            <div class="call-to-action">
+
+                <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                <h2>Donde descargar la aplicación</h2>
+                <p class="tagline">Usted  también puede descargar la aplicación de forma alternativa en las siguientes plataformas.</p>
+                <div class="my-4">
+
+                    
+                    <a href="#" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a>
+                </div>
+                <p class="text-primary"><small><i>Android 5 o Superior. </i></small></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="light-bg py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left">
+                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> Lealtad 559, Salud y Dragones, LA HABANA CUBA</p>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2">
+                            <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:support@mobileapp.com">carimarshowapk@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-0">
+                            <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">535-332-4928</a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icons">
+                        <a href="#"><span class="ti-facebook"></span></a>
+                        <a href="#"><span class="ti-twitter-alt"></span></a>
+                        <a href="#"><span class="ti-instagram"></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+    <footer class="my-5 text-center">
+        <!-- Copyright removal is not prohibited! -->
+        <p class="mb-2"><small>COPYRIGHT © 2019. ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a href="https://colorlib.com">COLORLIB</a></small></p>
+
+        <small>
+        <a href="#" class="m-2">TERMINOS Y CONDICIONES</a><a href="#" class="m-2"></a>
+        </small>
+    </footer>
+
+    <!-- jQuery and Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+
+</body>
+
 </html>
