@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /*
 
@@ -37,12 +37,12 @@ body {
 }
 
 a {
-    color: #e38cb7;
+    color: #0095D1;
 }
 
 a:hover,
 a:focus {
-    color: #d6619c;
+    color: #440558;
 }
 
 h1 {
@@ -84,12 +84,12 @@ p {
 }
 
 p.lead {
-    color: #e38cb7;
+    color: #0095D1;
     margin-bottom: 2rem;
 }
 
 .text-primary {
-    color: #e38cb7 !important;
+    color: #FFFFFF !important;
 }
 
 .light-font {
@@ -105,7 +105,7 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #d6619c;
+    color: #0095D1;
 }
 
 .btn-primary {
@@ -189,7 +189,9 @@ p.lead {
     background-color: rgb(74, 13, 143);
     background: -moz-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
     background: -webkit-linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
-    background: linear-gradient(135deg, rgb(74, 13, 143) 0%, rgb(250, 42, 143) 100%);
+    
+	background: linear-gradient(135deg, rgb(68, 5, 88) 0%, rgb(0, 149, 209) 100%);
+
     -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
@@ -211,7 +213,7 @@ p.lead {
     }
     .navbar-nav>.nav-item>.nav-link.active:after {
         content: "";
-        border-bottom: 2px solid #cd99d4;
+        border-bottom: 2px solid #FFFFFF;
         left: 1rem;
         right: 1rem;
         bottom: 5px;
@@ -243,13 +245,13 @@ header {
     background-image: -moz-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
     background-image: -ms-linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-    background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
+    background-image: linear-gradient( 135deg, rgba(68, 5, 88, 1) 0%, rgba(0, 149, 209, 1) 100%);
 }
 
 .tagline {
     font-size: 23px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #FFFFFF;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -281,9 +283,11 @@ header {
 
 .gradient-fill:before {
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    background: -moz-linear-gradient(top, #440558 0%, #0095D1 50%);
+    background: -webkit-linear-gradient(top, #440558 0%, #0095D1 50%);
+    
+	background: linear-gradient(to bottom, #440558 0%, #0095D1 50%);
+
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -310,9 +314,9 @@ header {
     position: absolute;
     width: 3px;
     color: #fc73b4;
-    background: -moz-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: -webkit-linear-gradient(top, #9477b4 0%, #fc73b4 100%);
-    background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+    background: -moz-linear-gradient(top, #440558 0%, #0095D1 50%);
+    background: -webkit-linear-gradient(top, #440558 0%, #0095D1 50%);
+    background: linear-gradient(to bottom, #440558 0%, #0095D1 50%);
     top: 0;
     bottom: 0;
     left: 0;
@@ -346,7 +350,7 @@ header {
     border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
-    color: #f5378e;
+    color: #0095D1;
     font-size: 48px;
     text-align: center;
     line-height: 80px;
@@ -364,11 +368,13 @@ header {
 }
 
 .ui-steps li:hover .circle-icon {
-    background-image: -moz-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -webkit-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: -ms-linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    background-image: linear-gradient( 122deg, #e6388e 0%, #fb378e 100%);
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
+    background-image: -moz-linear-gradient( 122deg, #440558 0%, #0095D1 100%);
+    background-image: -webkit-linear-gradient( 122deg, #440558 0%, #0095D1 100%);
+    background-image: -ms-linear-gradient( 122deg, #440558 0%, #0095D1 100%);
+    
+	background-image: linear-gradient( 122deg, #440558 0%, #0095D1 100%);
+   
+	 box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.09);
     color: #FFF;
 }
 
@@ -434,7 +440,7 @@ header {
 .nav-tabs .nav-link.active {
     background: #FFF;
     border-top-width: 3px;
-    border-color: #ce75b4 #faf6fb #FFF;
+    border-color: #0095D1 #faf6fb #FFF;
     color: #633991;
 }
 
@@ -497,7 +503,7 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #ff487e;
+    background: #0095D1;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -597,7 +603,7 @@ header {
 .call-to-action .tagline {
     font-size: 16px;
     font-weight: 300;
-    color: #ffb8f6;
+    color: #FFFFFF
     max-width: 650px;
     margin: 0 auto;
 }
@@ -625,13 +631,13 @@ header {
     line-height: 50px;
     margin: 0 0.3rem;
     border-radius: 5px;
-    color: #f4c9e2;
+    color: #0095D1;
     transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
     text-decoration: none;
-    color: #e38cb7;
+    color: #440558;
 }
 
 @media (max-width:991px) {
