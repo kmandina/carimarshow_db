@@ -20,9 +20,9 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa6b"},"nombre":"Series Espanolas","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa52"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa6c"},"nombre":"Estreno Series","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa52"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa6d"},"nombre":"Estreno Series Espanolas","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa52"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa6e"},"nombre":"Show y Reality","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa53"},"updatedAt":{"$date":"2019-07-26T20:17:34.186Z"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa6f"},"nombre":"Show y Reality TX","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa53"},"updatedAt":{"$date":"2019-07-26T20:17:34.186Z"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa70"},"nombre":"Estreno Show y Reality","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa53"},"updatedAt":{"$date":"2019-07-26T20:17:34.186Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa6e"},"nombre":"Show y Reality","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa53"},"updatedAt":{"$date":"2019-12-21T14:46:12.730Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa6f"},"nombre":"Show y Reality TX","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa53"},"updatedAt":{"$date":"2019-12-21T14:46:12.730Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa70"},"nombre":"Estreno Show y Reality","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa53"},"updatedAt":{"$date":"2019-12-21T14:46:12.730Z"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa71"},"nombre":"Series Animadas","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa54"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa72"},"nombre":"Series Animadas TX","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa54"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa73"},"nombre":"Estreno Series Animadas","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa54"}}
@@ -61,3 +61,6 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa94"},"nombre":"Ayuda","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa57"}}
 {"_id":{"$oid":"5c95398a4f6740193ca9e2d7"},"nombre":"Próximamente","visible":true,"orden":2,"createdAt":{"$date":"2019-03-22T19:37:46.703Z"},"updatedAt":{"$date":"2019-04-13T13:15:23.706Z"},"__v":0,"categoria":{"$oid":"5c7a9300c075e89b1623aa4b"}}
 {"_id":{"$oid":"5c9539fe4f6740193ca9e2d8"},"nombre":"HBO","visible":true,"orden":3,"createdAt":{"$date":"2019-03-22T19:39:42.584Z"},"updatedAt":{"$date":"2019-03-22T19:39:42.588Z"},"__v":0}
+{"_id":{"$oid":"5e02a1eef2e5de18181d348a"},"nombre":"Peliculas 2018","visible":true,"orden":1,"createdAt":{"$date":"2019-12-24T23:40:30.692Z"},"updatedAt":{"$date":"2019-12-24T23:40:30.695Z"},"__v":0,"categoria":{"$oid":"5c7a9300c075e89b1623aa51"}}
+{"_id":{"$oid":"5e03d57651e5f710cceabb80"},"nombre":"Pelic-2020","visible":true,"orden":1,"createdAt":{"$date":"2019-12-25T21:32:38.836Z"},"updatedAt":{"$date":"2019-12-25T21:32:38.842Z"},"__v":0,"categoria":{"$oid":"5c7a9300c075e89b1623aa4c"}}
+{"_id":{"$oid":"5e03d8c651e5f710cceabb82"},"nombre":"Lo Mejor 2019","visible":true,"orden":1,"createdAt":{"$date":"2019-12-25T21:46:46.178Z"},"updatedAt":{"$date":"2019-12-27T02:55:29.454Z"},"__v":0,"categoria":{"$oid":"5e03d85451e5f710cceabb81"}}

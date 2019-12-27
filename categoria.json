@@ -9,8 +9,9 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa50"},"nombre":"Novelas","updatedAt":{"$date":"2019-03-23T15:16:54.876Z"},"orden":8,"visible":true,"icono":"ic_weekend"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa51"},"nombre":"Peliculas","updatedAt":{"$date":"2019-03-23T15:10:28.745Z"},"orden":9,"visible":true,"icono":"ic_local_movies"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa52"},"nombre":"Series","updatedAt":{"$date":"2019-03-23T15:10:58.183Z"},"orden":10,"visible":true,"icono":"ic_wallpaper"}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa53"},"nombre":"Shows","updatedAt":{"$date":"2019-07-26T20:17:34.189Z"},"orden":12,"visible":true,"icono":"ic_hot_tub"}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa53"},"nombre":"Shows ","updatedAt":{"$date":"2019-12-21T14:46:12.735Z"},"orden":12,"visible":true,"icono":"ic_hot_tub"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa54"},"nombre":"Series Animadas","updatedAt":{"$date":"2019-03-23T15:11:40.614Z"},"orden":14,"visible":false,"icono":"ic_beach_access"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa55"},"nombre":"Mangas","updatedAt":{"$date":"2019-03-23T15:11:51.691Z"},"orden":15,"visible":false,"icono":"ic_beach_access"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa56"},"nombre":"Favoritos","updatedAt":{"$date":"2019-06-13T01:00:28.496Z"},"orden":15,"visible":false,"icono":"ic_whatshot"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa57"},"nombre":"Ayuda","orden":0,"visible":false,"updatedAt":{"$date":"2019-03-23T14:47:00.221Z"},"icono":"ic_grade"}
+{"_id":{"$oid":"5e03d85451e5f710cceabb81"},"nombre":"Lo Mejor 2019","orden":2,"visible":true,"icono":"ic_shop","createdAt":{"$date":"2019-12-25T21:44:52.158Z"},"updatedAt":{"$date":"2019-12-27T02:55:29.460Z"},"__v":0}
