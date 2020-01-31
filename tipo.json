@@ -1,10 +1,10 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa58"},"nombre":"Configuracion","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa48"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa59"},"nombre":"Contacto","createdAt":{"$date":"2018-11-01T03:04:32.000Z"},"updatedAt":{"$date":"2018-11-01T03:04:32.000Z"},"orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4a"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa5a"},"nombre":"Android","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa5b"},"nombre":"IOS","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa5c"},"nombre":"Windows","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa5d"},"nombre":"Juegos con Base de Datos","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa5e"},"nombre":"Juegos sin Base de Datos","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa5a"},"nombre":"Android","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"},"updatedAt":{"$date":"2020-01-31T21:30:49.520Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa5b"},"nombre":"IOS","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"},"updatedAt":{"$date":"2020-01-31T21:30:49.520Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa5c"},"nombre":"Windows","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"},"updatedAt":{"$date":"2020-01-31T21:30:49.520Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa5d"},"nombre":"Juegos con Base de Datos","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"},"updatedAt":{"$date":"2020-01-31T21:30:49.520Z"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa5e"},"nombre":"Juegos sin Base de Datos","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4d"},"updatedAt":{"$date":"2020-01-31T21:30:49.520Z"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa5f"},"nombre":"MiniSeries","updatedAt":{"$date":"2018-12-28T10:08:39.000Z"},"orden":{"$numberLong":"1"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4e"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa60"},"nombre":"Estreno MiniSeries","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4e"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa61"},"nombre":"Animados","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4f"}}

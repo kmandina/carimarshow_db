@@ -3,7 +3,7 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4a"},"nombre":"Contacto","createdAt":{"$date":"2018-11-01T03:04:32.000Z"},"updatedAt":{"$date":"2019-03-23T14:46:40.252Z"},"orden":0,"visible":false,"icono":"ic_account_box"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4b"},"nombre":"Destacados","updatedAt":{"$date":"2019-03-23T15:13:06.530Z"},"orden":3,"visible":true,"icono":"ic_content_paste"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4c"},"nombre":"Estrenos","updatedAt":{"$date":"2019-03-23T15:13:52.905Z"},"orden":2,"visible":true,"icono":"ic_flight_takeoff"}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa4d"},"nombre":"Software","updatedAt":{"$date":"2019-03-23T15:14:12.562Z"},"orden":13,"visible":true,"icono":"ic_videogame_asset"}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa4d"},"nombre":"Software","updatedAt":{"$date":"2020-01-31T21:30:49.523Z"},"orden":13,"visible":false,"icono":"ic_videogame_asset"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4e"},"nombre":"MiniSeries","updatedAt":{"$date":"2019-03-23T15:16:16.134Z"},"orden":6,"visible":false,"icono":"ic_local_pizza"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4f"},"nombre":"Animados","updatedAt":{"$date":"2019-03-23T15:16:41.666Z"},"orden":11,"visible":true,"icono":"ic_beach_access"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa50"},"nombre":"Novelas","updatedAt":{"$date":"2019-03-23T15:16:54.876Z"},"orden":8,"visible":true,"icono":"ic_weekend"}
