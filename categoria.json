@@ -1,7 +1,7 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa48"},"nombre":"Configuracion","updatedAt":{"$date":"2019-03-23T15:12:45.943Z"},"orden":16,"visible":true,"icono":"ic_settings"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa49"},"nombre":"Ofertas","updatedAt":{"$date":"2019-03-23T15:12:53.638Z"},"orden":1,"visible":false,"icono":"ic_monetization_on"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4a"},"nombre":"Contacto","createdAt":{"$date":"2018-11-01T03:04:32.000Z"},"updatedAt":{"$date":"2019-03-23T14:46:40.252Z"},"orden":0,"visible":false,"icono":"ic_account_box"}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa4b"},"nombre":"Destacados","updatedAt":{"$date":"2019-03-23T15:13:06.530Z"},"orden":3,"visible":true,"icono":"ic_content_paste"}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa4b"},"nombre":"Destacados","updatedAt":{"$date":"2020-03-06T04:18:29.079Z"},"orden":4,"visible":true,"icono":"ic_content_paste"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4c"},"nombre":"Estrenos","updatedAt":{"$date":"2019-03-23T15:13:52.905Z"},"orden":2,"visible":true,"icono":"ic_flight_takeoff"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4d"},"nombre":"Software","updatedAt":{"$date":"2020-01-31T21:30:49.523Z"},"orden":13,"visible":false,"icono":"ic_videogame_asset"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa4e"},"nombre":"MiniSeries","updatedAt":{"$date":"2019-03-23T15:16:16.134Z"},"orden":6,"visible":false,"icono":"ic_local_pizza"}
@@ -14,4 +14,4 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa55"},"nombre":"Mangas","updatedAt":{"$date":"2019-03-23T15:11:51.691Z"},"orden":15,"visible":false,"icono":"ic_beach_access"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa56"},"nombre":"Favoritos","updatedAt":{"$date":"2019-06-13T01:00:28.496Z"},"orden":15,"visible":false,"icono":"ic_whatshot"}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa57"},"nombre":"Ayuda","orden":0,"visible":false,"updatedAt":{"$date":"2019-03-23T14:47:00.221Z"},"icono":"ic_grade"}
-{"_id":{"$oid":"5e03d85451e5f710cceabb81"},"nombre":"Lo Mejor 2019","orden":2,"visible":true,"icono":"ic_shop","createdAt":{"$date":"2019-12-25T21:44:52.158Z"},"updatedAt":{"$date":"2019-12-27T02:55:29.460Z"},"__v":0}
+{"_id":{"$oid":"5e03d85451e5f710cceabb81"},"nombre":"Lo Mejor 2019","orden":3,"visible":true,"icono":"ic_shop","createdAt":{"$date":"2019-12-25T21:44:52.158Z"},"updatedAt":{"$date":"2020-03-06T04:18:44.441Z"},"__v":0}
