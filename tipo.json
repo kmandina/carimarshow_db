@@ -37,7 +37,8 @@
 {"_id":{"$oid":"5c7a9300c075e89b1623aa7e"},"nombre":"Juegos sin Base de Datos","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4c"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa7f"},"nombre":"Mangas","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4c"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa80"},"nombre":"Show y Reality","orden":{"$numberLong":"0"},"visible":true,"categoria":{"$oid":"5c7a9300c075e89b1623aa4c"}}
-{"_id":{"$oid":"5c7a9300c075e89b1623aa79"},"nombre":"Novelas","orden":2,"visible":true,"updatedAt":{"$date":"2019-03-08T21:50:00.788Z"},"categoria":{"$oid":"5c7a9300c075e89b1623aa4c"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa81"},"nombre":"Pelic-2019","orden":1,"visible":false,"updatedAt":{"$date":"2020-04-18T17:10:27.169Z"},"categoria":{"$oid":"5c7a9300c075e89b1623aa4c"}}
+{"_id":{"$oid":"5c7a9300c075e89b1623aa82"},"nombre":"Novelas","orden":3,"visible":true,"updatedAt":{"$date":"2020-03-06T04:18:29.078Z"},"categoria":{"$oid":"5c7a9300c075e89b1623aa4b"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa83"},"nombre":"Series","orden":1,"visible":true,"updatedAt":{"$date":"2020-03-06T04:18:29.078Z"},"categoria":{"$oid":"5c7a9300c075e89b1623aa4b"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa82"},"nombre":"Novelas","orden":3,"visible":true,"updatedAt":{"$date":"2020-03-06T04:18:29.078Z"},"categoria":{"$oid":"5c7a9300c075e89b1623aa4b"}}
 {"_id":{"$oid":"5c7a9300c075e89b1623aa84"},"nombre":"Animados","orden":2,"visible":true,"updatedAt":{"$date":"2020-03-06T04:18:29.078Z"},"categoria":{"$oid":"5c7a9300c075e89b1623aa4b"}}
