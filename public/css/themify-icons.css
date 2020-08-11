@@ -1347,6 +1347,9 @@
 .ti-twitter-alt:before {
     content: "\e74b";
 }
+.ti-telegram:before {
+    content: "\e900";
+}
 
 .ti-tumblr-alt:before {
     content: "\e74c";
